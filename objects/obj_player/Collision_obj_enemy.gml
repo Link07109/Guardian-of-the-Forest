@@ -7,9 +7,10 @@ if vulnerable {
 	vulnerable = false
 	alarm[0] = 90
 	
-	if hp <= 0
+	if hp <= 0 {
 		actionable = false
 		vulnerable = false
 		// sprite_index = spr_player_death
 		alarm[1] = death_alarm
+	}
 }
