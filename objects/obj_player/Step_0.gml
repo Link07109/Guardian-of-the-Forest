@@ -1,4 +1,4 @@
-/// @description Movement Code
+/// @description Action Code
 
 if actionable {
 	if jumping {
@@ -7,7 +7,7 @@ if actionable {
 		else
 			sprite_index = spr_player_jump
 	} else {                  
-		if (keyboard_check(ord("W")))
+		if (keyboard_check_pressed(ord("W")))
 			vspeed = jump_height
 		else
 			sprite_index = spr_player
@@ -27,27 +27,24 @@ if actionable {
 		image_xscale = xsc
 	}
 
-	if (has_sanitizer) {
+	if can_attack {
 		if (keyboard_check_pressed(vk_space)) {
-			if can_shoot {
-				sprite_index = spr_player_attack
-			
-				if facing_right {
-					num = 128
-					image_xscale = xsc * .75
-				} else {
-					num = -128
-					image_xscale = -xsc * .75
-				}
+			sprite_index = spr_player
+		
+			if facing_right
+				num = 64
+			else
+				num = -64
+		
+			proj = instance_create_layer(x + num, y - sprite_yoffset + 64 * 2.5, "Instances", weapon)
+			proj.facing_right = facing_right
 				
-				proj = instance_create_layer(x + num, y - sprite_yoffset + 64, "lyr_projectiles", obj_sanitizer_goop)
-				proj.facing_right = facing_right
+			can_attack = false
+			alarm[2] = 30
 				
-				can_shoot = false
-				alarm[2] = 60
-				
+			if !jumping {
 				actionable = false
-				alarm[4] = 30
+				alarm[4] = 15
 			}
 		}
 	}

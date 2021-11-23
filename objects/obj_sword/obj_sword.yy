@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "weapons",
-    "path": "folders/Objects/weapons.yy",
+    "path": "folders/Objects/items/weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sword",

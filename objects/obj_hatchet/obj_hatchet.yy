@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_hatchet",
+    "path": "sprites/spr_hatchet/spr_hatchet.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,12 +23,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "weapons",
-    "path": "folders/Objects/weapons.yy",
+    "path": "folders/Objects/items/weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hatchet",

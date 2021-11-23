@@ -1,3 +1,3 @@
 /// @description Attack Cooldown Timer
 
-can_shoot = true
+can_attack = true
