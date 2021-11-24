@@ -29,7 +29,7 @@ if actionable {
 
 	if can_attack {
 		if (keyboard_check_pressed(vk_space)) {
-			sprite_index = spr_player
+			sprite_index = spr_player_knife_attack
 		
 			if facing_right
 				num = 64

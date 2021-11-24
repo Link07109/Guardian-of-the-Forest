@@ -31,6 +31,7 @@
     {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"order":9,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
+    {"id":{"name":"spr_player_knife_attack","path":"sprites/spr_player_knife_attack/spr_player_knife_attack.yy",},"order":7,},
     {"id":{"name":"spr_player_fall","path":"sprites/spr_player_fall/spr_player_fall.yy",},"order":6,},
     {"id":{"name":"spr_temp_forest_bg","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"order":0,},
     {"id":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"order":0,},
