@@ -29,7 +29,15 @@ if actionable {
 
 	if can_attack {
 		if (keyboard_check_pressed(vk_space)) {
-			sprite_index = spr_player_knife_attack
+			switch(weapon) {
+				case obj_knife:
+					sprite_index = spr_player_knife_attack
+					break;
+				
+				case obj_hatchet:
+					sprite_index = spr_player_hatchet_attack
+					break;
+			}
 		
 			if facing_right
 				num = 64

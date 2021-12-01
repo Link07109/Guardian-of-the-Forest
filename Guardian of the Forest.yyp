@@ -36,6 +36,7 @@
     {"id":{"name":"spr_player_knife_attack","path":"sprites/spr_player_knife_attack/spr_player_knife_attack.yy",},"order":7,},
     {"id":{"name":"spr_player_fall","path":"sprites/spr_player_fall/spr_player_fall.yy",},"order":6,},
     {"id":{"name":"spr_temp_forest_bg","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"order":0,},
+    {"id":{"name":"spr_player_hatchet_attack","path":"sprites/spr_player_hatchet_attack/spr_player_hatchet_attack.yy",},"order":8,},
     {"id":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"order":0,},
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},"order":1,},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"order":1,},
