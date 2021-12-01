@@ -4,7 +4,7 @@
     "path": "sprites/spr_hatchet/spr_hatchet.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

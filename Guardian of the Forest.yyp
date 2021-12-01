@@ -23,6 +23,7 @@
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"order":0,},
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},"order":6,},
     {"id":{"name":"spr_temp_slime","path":"sprites/spr_temp_slime/spr_temp_slime.yy",},"order":0,},
+    {"id":{"name":"spr_vines","path":"sprites/spr_vines/spr_vines.yy",},"order":10,},
     {"id":{"name":"obj_hatchet_pickup","path":"objects/obj_hatchet_pickup/obj_hatchet_pickup.yy",},"order":1,},
     {"id":{"name":"fnt_temp","path":"fonts/fnt_temp/fnt_temp.yy",},"order":0,},
     {"id":{"name":"obj_persist","path":"objects/obj_persist/obj_persist.yy",},"order":6,},
