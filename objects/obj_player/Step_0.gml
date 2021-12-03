@@ -1,14 +1,18 @@
 /// @description Action Code
 
 if actionable {
-	if jumping {
-		if (vspeed >= 0)
+	if jumping && can_attack {
+		if (vspeed >= 0) {
 			sprite_index = spr_player_fall
-		else
+		} else {
 			sprite_index = spr_player_jump
+			
+			if !keyboard_check(ord("W"))
+				vspeed = vspeed / 2
+		}
 	} else {                  
 		if (keyboard_check_pressed(ord("W")))
-			vspeed = jump_height // TODO: variable jump height based on how long its pressed
+			vspeed = jump_height
 		else
 			sprite_index = spr_player
 	}
@@ -65,7 +69,7 @@ if actionable {
 		jumping = true
 	}
 
-	vspeed = min(vspeed, 20)
+	vspeed = min(vspeed, 20) // max fall speed
 } else {
 	// knockback
 	/*
