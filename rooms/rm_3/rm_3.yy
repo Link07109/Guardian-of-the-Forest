@@ -156,6 +156,9 @@
           ],"isDnd":false,"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-3.5,"scaleY":-1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":5728.0,"resourceVersion":"1.0","name":"transition_5_3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_vines","path":"objects/obj_vines/obj_vines.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.75,"scaleY":2.375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":3200.0,"resourceVersion":"1.0","name":"inst_603AFFF4","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_vines","path":"objects/obj_vines/obj_vines.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.75,"scaleY":2.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2688.0,"y":4992.0,"resourceVersion":"1.0","name":"inst_4C48C977","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"prev_room","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"objectId":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"value":"rm_5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":5312.0,"resourceVersion":"1.0","name":"spawn_5_3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"effectType":"_filter_heathaze","properties":[
         {"type":0,"name":"g_Distort1Speed","value":"0.01",},
@@ -209,6 +212,7 @@
     {"name":"inst_22654AF8","path":"rooms/rm_3/rm_3.yy",},
     {"name":"inst_714DDE0A","path":"rooms/rm_3/rm_3.yy",},
     {"name":"inst_56B3AEC7","path":"rooms/rm_3/rm_3.yy",},
+    {"name":"spawn_5_3","path":"rooms/rm_3/rm_3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

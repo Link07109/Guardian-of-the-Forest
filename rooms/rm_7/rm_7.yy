@@ -119,7 +119,7 @@
             {"propertyId":{"name":"destination_room","path":"objects/obj_transition/obj_transition.yy",},"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"value":"rm_hatchet","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2816.0,"y":416.0,"resourceVersion":"1.0","name":"transition_hatchet_7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"depth":500,"effectType":"_filter_heathaze","properties":[
+    {"effectType":"_filter_heathaze","properties":[
         {"type":0,"name":"g_Distort1Speed","value":"0.01",},
         {"type":0,"name":"g_Distort2Speed","value":"0.025",},
         {"type":0,"name":"g_Distort1Scale","value":"13.3",},
@@ -131,7 +131,7 @@
         {"type":0,"name":"g_ChromaSpreadAmount","value":"0.5",},
         {"type":0,"name":"g_CamOffsetScale","value":"1",},
         {"type":2,"name":"g_DistortTexture","value":"_filter_heathaze_noise_sprite",},
-      ],"visible":true,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Effect_1","tags":[],"resourceType":"GMREffectLayer",},
+      ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Effect_1","tags":[],"resourceType":"GMREffectLayer",},
     {"spriteId":{"name":"spr_temp_forest_bg","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
