@@ -1,3 +1,3 @@
 /// @description Death
 
-game_restart()
+room_goto(rm_game_over)
