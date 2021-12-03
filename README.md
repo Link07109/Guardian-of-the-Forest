@@ -12,18 +12,26 @@ Guardian of the Forest is a simple metroidvania game where you play as an advent
 
 ## Cheats
 * `Esc` - Quit Game
-* `0-4` - Go to a Specific Room
+* `0-9` - Go to a Specific Room
 * `R` - Restart Game
+* `K` - Increase Key Amount by 1
+* `H` - Get the Hatchet
+* `S` - Get the Sword
 
 ### Room Codes:
 * `0` - Title Screen
-* `1` - Room 1
-* `2` - Room 2
-* `3` - Room 3
-* `4` - Room 4
+* `1` - Forest Room 1
+* `2` - Forest Room 2
+* `3` - Forest Room 3
+* `4` - Forest Room 4
+* `5` - Forest Room 5
+* `6` - Forest Room 6
+* `7` - Forest Room 7
+* `8` - Forest Room 8 (Hatchet Room)
+* `9` - Forest Room 9 (Forest Boss Room)
 
 ## Art
-All visual elements were created by our artist `Colleen Gundersen`, with the exception of the life diamonds which are placeholders made by `Ivan Valadez`
+All visual elements were created by our artist `Colleen Gundersen`, with the exception of a few placeholders made by `Ivan Valadez`
 
 ## The Team
 * `Ivan Valadez` (Programmer)

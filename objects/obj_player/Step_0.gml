@@ -8,7 +8,7 @@ if actionable {
 			sprite_index = spr_player_jump
 	} else {                  
 		if (keyboard_check_pressed(ord("W")))
-			vspeed = jump_height
+			vspeed = jump_height // TODO: variable jump height based on how long its pressed
 		else
 			sprite_index = spr_player
 	}
