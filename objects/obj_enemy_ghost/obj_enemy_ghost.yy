@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ghost",
+    "path": "sprites/spr_ghost/spr_ghost.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,16 +25,13 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"12","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"damage","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "enemies",
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_forest_boss",
+  "name": "obj_enemy_ghost",
   "tags": [],
   "resourceType": "GMObject",
 }
