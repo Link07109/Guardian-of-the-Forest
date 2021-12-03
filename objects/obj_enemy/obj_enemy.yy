@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_slime",
-    "path": "sprites/spr_temp_slime/spr_temp_slime.yy",
+    "name": "spr_jack_o_lantern",
+    "path": "sprites/spr_jack_o_lantern/spr_jack_o_lantern.yy",
   },
   "solid": false,
   "visible": true,

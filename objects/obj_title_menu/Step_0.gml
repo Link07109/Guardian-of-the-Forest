@@ -16,11 +16,11 @@ if keyboard_check_pressed(vk_space)
 
 switch(cursor_pos) {
 	case 0: // Start
-		audio_stop_all()
+		// audio_stop_all()
 		room_goto(rm_1)
-		break
+		break;
 		
 	case 1: // Quit
 		game_end()
-		break
+		break;
 }
