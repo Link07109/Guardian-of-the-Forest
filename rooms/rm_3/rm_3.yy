@@ -136,11 +136,11 @@
       ],"visible":false,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Collision","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
-            {"propertyId":{"name":"prev_room","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"objectId":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"value":"rm_4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"prev_room","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"objectId":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"value":"rm_forest_boss","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2624.0,"y":5440.0,"resourceVersion":"1.0","name":"spawn_4_3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"destination_room","path":"objects/obj_transition/obj_transition.yy",},"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"value":"rm_4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.25,"scaleY":4.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2848.0,"y":5296.0,"resourceVersion":"1.0","name":"transition_4_3","tags":[],"resourceType":"GMRInstance",},
+            {"propertyId":{"name":"destination_room","path":"objects/obj_transition/obj_transition.yy",},"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"value":"rm_forest_boss","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.25,"scaleY":4.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2848.0,"y":5296.0,"resourceVersion":"1.0","name":"transition_forest_bosss_3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":192.0,"resourceVersion":"1.0","name":"spawn_1_3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"destination_room","path":"objects/obj_transition/obj_transition.yy",},"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"value":"rm_1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -186,7 +186,7 @@
     {"name":"inst_522053F8_1","path":"rooms/rm_3/rm_3.yy",},
     {"name":"inst_F0928ED_1","path":"rooms/rm_3/rm_3.yy",},
     {"name":"inst_39933225_1","path":"rooms/rm_3/rm_3.yy",},
-    {"name":"transition_4_3","path":"rooms/rm_3/rm_3.yy",},
+    {"name":"transition_forest_bosss_3","path":"rooms/rm_3/rm_3.yy",},
     {"name":"inst_4B8E8336_1","path":"rooms/rm_3/rm_3.yy",},
     {"name":"spawn_4_3","path":"rooms/rm_3/rm_3.yy",},
     {"name":"spawn_1_3","path":"rooms/rm_3/rm_3.yy",},
