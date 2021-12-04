@@ -4,7 +4,7 @@
     "path": "sprites/spr_sword/spr_sword.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

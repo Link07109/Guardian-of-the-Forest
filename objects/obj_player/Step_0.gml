@@ -10,7 +10,7 @@ if actionable {
 			if !keyboard_check(ord("W"))
 				vspeed = vspeed / 2
 		}
-	} else {                  
+	} else if !jumping {                  
 		if (keyboard_check_pressed(ord("W")))
 			vspeed = jump_height
 		else
@@ -41,6 +41,10 @@ if actionable {
 				case obj_hatchet:
 					sprite_index = spr_player_hatchet_attack
 					break;
+					
+				case obj_sword:
+					sprite_index = spr_player_sword_attack
+					break;
 			}
 		
 			if facing_right
@@ -56,7 +60,7 @@ if actionable {
 				
 			if !jumping {
 				actionable = false
-				alarm[4] = 15
+				alarm[4] = 20
 			}
 		}
 	}

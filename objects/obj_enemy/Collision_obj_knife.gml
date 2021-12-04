@@ -4,18 +4,17 @@ if vulnerable {
 	hp -= other.damage
 
 	vulnerable = false
-	alarm[0] = 15
+	alarm[0] = 10
 
-	// flashes red
+	sprite_index = spr_jack_o_lantern_hurt
 
 	// knockback
-	// go in the same direction as the weapon
 	knockback_right = other.facing_right
 
 	if knockback_right {
-		hspeed = 6
+		hspeed = 32
 	} else {
-		hspeed = -6
+		hspeed = -32
 	}
 
 
