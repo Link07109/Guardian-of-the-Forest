@@ -17,7 +17,7 @@ switch (why) {
 		break;
 }
 
-proj = instance_create_layer(x - sprite_xoffset * image_xscale, y + num, "Projectiles", obj_fireball)
+proj = instance_create_layer(x - 256, y + num, "Projectiles", obj_fireball)
 proj.image_xscale *= -1
 
-alarm[1] = 120
+alarm[1] = 60
