@@ -8,8 +8,9 @@
     {"id":{"name":"rm_hatchet","path":"rooms/rm_hatchet/rm_hatchet.yy",},"order":8,},
     {"id":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},"order":3,},
     {"id":{"name":"spr_knife","path":"sprites/spr_knife/spr_knife.yy",},"order":0,},
-    {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},"order":21,},
+    {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},"order":22,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":0,},
+    {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":21,},
     {"id":{"name":"rm_dungeon_5","path":"rooms/rm_dungeon_5/rm_dungeon_5.yy",},"order":15,},
     {"id":{"name":"rm_forest_boss","path":"rooms/rm_forest_boss/rm_forest_boss.yy",},"order":9,},
     {"id":{"name":"rm_6","path":"rooms/rm_6/rm_6.yy",},"order":6,},
@@ -120,6 +121,7 @@
     {"roomId":{"name":"rm_dungeon_8","path":"rooms/rm_dungeon_8/rm_dungeon_8.yy",},},
     {"roomId":{"name":"rm_dungeon_boss","path":"rooms/rm_dungeon_boss/rm_dungeon_boss.yy",},},
     {"roomId":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
   ],
   "Folders": [
