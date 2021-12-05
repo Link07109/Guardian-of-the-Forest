@@ -4,7 +4,7 @@ if vulnerable {
 	hp -= other.damage
 
 	vulnerable = false
-	alarm[0] = 10
+	alarm[0] = 20
 
 	sprite_index = hurt_sprite
 
@@ -12,9 +12,9 @@ if vulnerable {
 	knockback_right = other.facing_right
 
 	if knockback_right {
-		hspeed = 32
+		hspeed = knockback_amount
 	} else {
-		hspeed = -32
+		hspeed = -knockback_amount
 	}
 
 

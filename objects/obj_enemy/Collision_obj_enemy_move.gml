@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Turn around
 
 facing_right = !facing_right
 hspeed = 0

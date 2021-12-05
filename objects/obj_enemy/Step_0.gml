@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description facing + movement
 
 if vulnerable {
 	if facing_right {
