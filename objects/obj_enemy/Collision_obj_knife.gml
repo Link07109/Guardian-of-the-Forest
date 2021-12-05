@@ -6,7 +6,7 @@ if vulnerable {
 	vulnerable = false
 	alarm[0] = 10
 
-	sprite_index = spr_jack_o_lantern_hurt
+	sprite_index = hurt_sprite
 
 	// knockback
 	knockback_right = other.facing_right

@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_enemy_move",
-    "path": "sprites/spr_enemy_move/spr_enemy_move.yy",
+    "name": "spr_jack_o_lantern",
+    "path": "sprites/spr_jack_o_lantern/spr_jack_o_lantern.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_enemy",
+    "path": "objects/obj_enemy/obj_enemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_move",
+  "name": "obj_jack_o_lantern",
   "tags": [],
   "resourceType": "GMObject",
 }

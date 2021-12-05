@@ -15,8 +15,8 @@
   "layers": [
     {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Projectiles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3488.0,"y":1888.0,"resourceVersion":"1.0","name":"inst_21618BB4","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_move","path":"objects/obj_enemy_move/obj_enemy_move.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":1888.0,"resourceVersion":"1.0","name":"inst_5092403E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_jack_o_lantern","path":"objects/obj_jack_o_lantern/obj_jack_o_lantern.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3456.0,"y":1888.0,"resourceVersion":"1.0","name":"inst_7B65297C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_move","path":"objects/obj_enemy_move/obj_enemy_move.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4640.0,"y":1888.0,"resourceVersion":"1.0","name":"inst_987B2D1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":90,"SerialiseHeight":34,"TileSerialiseData":[
@@ -127,10 +127,10 @@
     {"name":"inst_3CAC0FE3","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_41BEF3FB","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_47E4CEF3","path":"rooms/rm_1/rm_1.yy",},
-    {"name":"inst_21618BB4","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_25F9F0B9","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_5092403E","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_987B2D1","path":"rooms/rm_1/rm_1.yy",},
+    {"name":"inst_7B65297C","path":"rooms/rm_1/rm_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

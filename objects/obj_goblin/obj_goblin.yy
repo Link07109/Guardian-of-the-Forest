@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ghost",
-    "path": "sprites/spr_ghost/spr_ghost.yy",
+    "name": "spr_goblin",
+    "path": "sprites/spr_goblin/spr_goblin.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,13 +25,16 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"normal_sprite","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"spr_goblin","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hurt_sprite","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"spr_goblin_hurt","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "enemies",
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_ghost",
+  "name": "obj_goblin",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -2,7 +2,7 @@ if vulnerable {
 	hp -= other.damage
 	// sprite_index = spr_player_hurt
 	actionable = false
-	alarm[3] = 60
+	alarm[3] = 45
 	
 	vulnerable = false
 	alarm[0] = 90
