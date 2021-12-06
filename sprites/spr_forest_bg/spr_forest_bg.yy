@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"28d4c2b1-abcc-41cc-8861-894f8f27f772","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"28d4c2b1-abcc-41cc-8861-894f8f27f772","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"LayerId":{"name":"1c1ac1fb-4fa7-4d3a-8147-7cb76db046cc","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_temp_forest_bg","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"resourceVersion":"1.0","name":"28d4c2b1-abcc-41cc-8861-894f8f27f772","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bde86508-2bf5-475f-b03a-bfe5911961ce","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bde86508-2bf5-475f-b03a-bfe5911961ce","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},"LayerId":{"name":"d0931dca-fe64-4c10-abc2-8d8d65a92271","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_forest_bg","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},"resourceVersion":"1.0","name":"bde86508-2bf5-475f-b03a-bfe5911961ce","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_temp_forest_bg","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},
+    "spriteId": {"name":"spr_forest_bg","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e579e194-ee77-49bb-bdd4-4c11afc19a36","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28d4c2b1-abcc-41cc-8861-894f8f27f772","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"84112866-c315-4bdc-abb4-8c50c01b4197","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bde86508-2bf5-475f-b03a-bfe5911961ce","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_temp_forest_bg","path":"sprites/spr_temp_forest_bg/spr_temp_forest_bg.yy",},
+    "parent": {"name":"spr_forest_bg","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_temp_forest_bg",
+    "name": "spr_forest_bg",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1c1ac1fb-4fa7-4d3a-8147-7cb76db046cc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0931dca-fe64-4c10-abc2-8d8d65a92271","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/backgrounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_temp_forest_bg",
+  "name": "spr_forest_bg",
   "tags": [],
   "resourceType": "GMSprite",
 }

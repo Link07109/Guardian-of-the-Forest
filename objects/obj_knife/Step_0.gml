@@ -9,5 +9,5 @@ if facing_right {
 }
 
 if instance_exists(obj_player) {
-	y = obj_player.y - obj_player.sprite_yoffset + 64 * 2.5
+	y = obj_player.y - 32
 }

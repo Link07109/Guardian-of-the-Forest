@@ -48,11 +48,11 @@ if actionable {
 			}
 		
 			if facing_right
-				num = 64
+				num = 96
 			else
-				num = -64
+				num = -96
 		
-			proj = instance_create_layer(x + num, y - sprite_yoffset + 64 * 2.5, "Instances", weapon)
+			proj = instance_create_layer(x + num, y - 32, "Instances", weapon)
 			proj.facing_right = facing_right
 				
 			can_attack = false
