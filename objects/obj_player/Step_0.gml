@@ -4,8 +4,10 @@ if actionable {
 	if jumping && can_attack {
 		if (vspeed >= 0) {
 			sprite_index = spr_player_fall
+			image_index = 1 // 0 is for when starting to jump off ground
 		} else {
 			sprite_index = spr_player_jump
+			image_index = 1 // 0 is for when landed on ground
 			
 			if !keyboard_check(ord("W"))
 				vspeed = vspeed / 2
