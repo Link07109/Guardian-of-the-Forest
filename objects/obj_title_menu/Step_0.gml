@@ -12,15 +12,18 @@ if cursor_pos < 0
 	cursor_pos = array_length(options) - 1
 	
 // Select an option
-if keyboard_check_pressed(vk_space)
-
-switch(cursor_pos) {
-	case 0: // Start
-		// audio_stop_all()
-		room_goto(rm_1)
-		break;
+if keyboard_check_pressed(vk_space) {
+	switch(cursor_pos) {
+		case 0: // (Re)Start
+			// audio_stop_all()
+			if room = rm_title
+				room_goto(rm_1)
+			else
+				game_restart()
+			break;
 		
-	case 1: // Quit
-		game_end()
-		break;
+		case 1: // Quit
+			game_end()
+			break;
+	}
 }

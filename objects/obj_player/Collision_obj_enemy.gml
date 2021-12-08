@@ -5,7 +5,7 @@ if vulnerable {
 	alarm[3] = 30 // knockback stun frames
 	
 	vulnerable = false
-	alarm[0] = 90 // i-frames
+	alarm[0] = 75 // i-frames
 	
 	if hp <= 0 {
 		actionable = false
