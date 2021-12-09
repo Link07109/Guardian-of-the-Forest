@@ -47,7 +47,7 @@
     "spriteId": {"name":"spr_jack_o_lantern_hurt","path":"sprites/spr_jack_o_lantern_hurt/spr_jack_o_lantern_hurt.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

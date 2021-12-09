@@ -20,4 +20,4 @@ switch (why) {
 proj = instance_create_layer(x - 256, y + num, "Projectiles", obj_fireball)
 proj.image_xscale *= -1
 
-alarm[1] = 60
+alarm[1] = 90
