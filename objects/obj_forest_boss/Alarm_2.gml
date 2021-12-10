@@ -1,22 +1,8 @@
-/// @description Projectile Timer -> when this gets called, fireball attack happens
+/// @description Fireball Timer
 
-why = random_range(1, 3)
-num = 0
+num = 144
 
-switch (why) {
-	case 1: // low attack
-		num = 128
-		break;
-	
-	case 2: // middle attack
-		num = 64
-		break;
-	
-	case 3: // high attack
-		num = sprite_yoffset * image_yscale
-		break;
-}
+sprite_index = spr_tree_attack
+alarm[4] = 30
 
-proj = instance_create_layer(x - 256, y + num, "Projectiles", obj_fireball)
-
-alarm[2] = 90
+alarm[3] = 60
