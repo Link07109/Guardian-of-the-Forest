@@ -53,7 +53,7 @@
     "spriteId": {"name":"spr_golem_attack","path":"sprites/spr_golem_attack/spr_golem_attack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 7.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
