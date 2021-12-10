@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "enemies",
-    "path": "folders/Sprites/enemies.yy",
+    "name": "jack_o_lantern",
+    "path": "folders/Sprites/enemies/jack_o_lantern.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_jack_o_lantern",

@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "bosses",
-    "path": "folders/Sprites/enemies/bosses.yy",
+    "name": "golem",
+    "path": "folders/Sprites/enemies/bosses/golem.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_golem_death",

@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "enemies",
-    "path": "folders/Sprites/enemies.yy",
+    "name": "goblin",
+    "path": "folders/Sprites/enemies/goblin.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_goblin_hurt",

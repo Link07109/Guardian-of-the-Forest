@@ -78,6 +78,7 @@
         {"properties":[
             {"propertyId":{"name":"destination_room","path":"objects/obj_transition/obj_transition.yy",},"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"value":"rm_dungeon_heart","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.75,"scaleY":1.00000024,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3616.0,"y":64.0,"resourceVersion":"1.0","name":"transition_dungeon_heart_dungeon_5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_lock","path":"objects/obj_lock/obj_lock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.875,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3392.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7AC29225","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_dungeon_bg","path":"sprites/spr_dungeon_bg/spr_dungeon_bg.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -100,6 +101,7 @@
     {"name":"inst_676483C2","path":"rooms/rm_dungeon_5/rm_dungeon_5.yy",},
     {"name":"inst_41811311","path":"rooms/rm_dungeon_5/rm_dungeon_5.yy",},
     {"name":"inst_44AB0F3","path":"rooms/rm_dungeon_5/rm_dungeon_5.yy",},
+    {"name":"inst_7AC29225","path":"rooms/rm_dungeon_5/rm_dungeon_5.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
