@@ -6,6 +6,11 @@ if (instance_exists(obj_player)) {
 		patrol = false
 		direction = point_direction(x, y, obj_player.x, obj_player.y)
 		speed = move_speed * 1.2
+		
+		if direction < 0
+			image_xscale = -1
+		else
+			image_xscale = 1
 	}
 	
 	//if patrol {
