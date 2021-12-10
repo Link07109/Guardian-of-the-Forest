@@ -13,10 +13,12 @@ if actionable {
 				vspeed = vspeed / 2
 		}
 	} else if !jumping {                  
-		if (keyboard_check_pressed(ord("W")))
+		if (keyboard_check_pressed(ord("W"))) {
 			vspeed = jump_height
-		else
+			audio_play_sound(snd_jump, 1, false)
+		} else {
 			sprite_index = spr_player
+		}
 	}
 
 	if (keyboard_check(ord("A")) && !instance_place(x - move_speed, y, obj_collision)) {
@@ -37,14 +39,17 @@ if actionable {
 		if (keyboard_check_pressed(vk_space)) {
 			switch(weapon) {
 				case obj_knife:
+					audio_play_sound(snd_axe_swing, 1, false)
 					sprite_index = spr_player_knife_attack
 					break;
 				
 				case obj_hatchet:
+					audio_play_sound(snd_axe_swing, 1, false)
 					sprite_index = spr_player_hatchet_attack
 					break;
 					
 				case obj_sword:
+					audio_play_sound(snd_sword_swing, 1, false)
 					sprite_index = spr_player_sword_attack
 					break;
 			}

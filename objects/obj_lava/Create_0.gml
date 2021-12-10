@@ -1,3 +1,3 @@
 /// @description Start timer
 
-alarm[0] = 66
+alarm[0] = 60

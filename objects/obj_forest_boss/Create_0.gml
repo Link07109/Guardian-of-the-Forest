@@ -2,4 +2,4 @@
 
 event_inherited();
 
-alarm[1] = 90
+alarm[2] = 90

@@ -1,4 +1,4 @@
 /// @description Inherit + Start Pillar Alarm
 event_inherited();
 
-alarm[1] = 180 //240
+alarm[2] = 180 //240

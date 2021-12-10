@@ -44,7 +44,7 @@
     "spriteId": {"name":"spr_jack_o_lantern_death","path":"sprites/spr_jack_o_lantern_death/spr_jack_o_lantern_death.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

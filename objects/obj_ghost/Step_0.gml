@@ -5,7 +5,7 @@ if (instance_exists(obj_player)) {
 		path_end()
 		patrol = false
 		direction = point_direction(x, y, obj_player.x, obj_player.y)
-		speed = move_speed
+		speed = move_speed * 1.2
 	}
 	
 	//if patrol {

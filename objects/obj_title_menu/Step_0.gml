@@ -15,11 +15,13 @@ if cursor_pos < 0
 if keyboard_check_pressed(vk_space) {
 	switch(cursor_pos) {
 		case 0: // (Re)Start
-			// audio_stop_all()
-			if room = rm_title
+			audio_stop_all()
+			if room = rm_title {
 				room_goto(rm_1)
-			else
+				audio_play_sound(snd_newdawn, 0, true)
+			} else {
 				game_restart()
+			}
 			break;
 		
 		case 1: // Quit
