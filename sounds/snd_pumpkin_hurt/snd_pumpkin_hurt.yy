@@ -14,8 +14,8 @@
   "soundFile": "snd_pumpkin_hurt.mp3",
   "duration": 1.018776,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "hurt",
+    "path": "folders/Sounds/hurt.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_pumpkin_hurt",

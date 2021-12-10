@@ -14,8 +14,8 @@
   "soundFile": "snd_ghost_2_hurt.mp3",
   "duration": 0.992653,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "hurt",
+    "path": "folders/Sounds/hurt.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_ghost_2_hurt",

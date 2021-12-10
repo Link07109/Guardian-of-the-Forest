@@ -14,8 +14,8 @@
   "soundFile": "snd_player_hurt.mp3",
   "duration": 0.653061,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "hurt",
+    "path": "folders/Sounds/hurt.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_player_hurt",
