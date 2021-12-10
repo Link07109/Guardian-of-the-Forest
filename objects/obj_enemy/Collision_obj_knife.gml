@@ -4,9 +4,9 @@ if vulnerable {
 	hp -= other.damage
 	audio_play_sound(hurt_sound, 1, false)
 	vulnerable = false
+	hurt_collision = false
 	
 	if hp <= 0 {
-		hurt_collision = false
 		sprite_index = death_sprite
 		alarm[1] = death_timer
 	} else {
