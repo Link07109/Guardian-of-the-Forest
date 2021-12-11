@@ -34,7 +34,7 @@ Guardian of the Forest is a simple metroidvania game where you play as an advent
 * `Delete` - Dungeon Boss Room
 
 ## Sound & Music
-All sound effects were created by our Designer `James Nance`, with the exception of the sword swing
+All sound effects were created by our Designer `James Nance`, with the exception of the sword swing sound which is from [`zapsplat.com`](https://www.zapsplat.com/)
 
 All music is from [`bensound.com`](https://www.bensound.com/) using their free license as described [here](https://www.bensound.com/licensing)
 
