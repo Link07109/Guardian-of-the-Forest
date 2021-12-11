@@ -49,6 +49,7 @@
     {"id":{"name":"obj_knife","path":"objects/obj_knife/obj_knife.yy",},"order":1,},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"order":5,},
     {"id":{"name":"spr_enemy_move","path":"sprites/spr_enemy_move/spr_enemy_move.yy",},"order":3,},
+    {"id":{"name":"obj_kill_room","path":"objects/obj_kill_room/obj_kill_room.yy",},"order":13,},
     {"id":{"name":"rm_dungeon_heart","path":"rooms/rm_dungeon_heart/rm_dungeon_heart.yy",},"order":12,},
     {"id":{"name":"obj_knife_pickup","path":"objects/obj_knife_pickup/obj_knife_pickup.yy",},"order":0,},
     {"id":{"name":"rm_dungeon_8","path":"rooms/rm_dungeon_8/rm_dungeon_8.yy",},"order":18,},
