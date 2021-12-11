@@ -80,13 +80,6 @@ if actionable {
 		jumping = true
 	}
 
-	vspeed = min(vspeed, 20) // max fall speed
-} else {
-	// knockback
-	/*
-	if facing_right
-		x -= 1
-	else
-		x += 1
-	*/
 }
+
+vspeed = min(vspeed, 20) // max fall speed
