@@ -1,4 +1,4 @@
-/// @description Go To Room before dungeon
+/// @description Go To Room before dungeon boss
 
 room_goto(rm_dungeon_7)
 
