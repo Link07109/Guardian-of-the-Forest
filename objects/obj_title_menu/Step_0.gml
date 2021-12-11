@@ -14,21 +14,8 @@ if cursor_pos < 0
 // Select an option
 if keyboard_check_pressed(vk_space) {
 	switch(cursor_pos) {
-		case 0: // (Re)Start
-			audio_stop_all()
-			if room = rm_title {
-				room_goto(rm_1)
-				audio_play_sound(snd_newdawn, 0, true)
-			} else if obj_persist.halfway {
-				room_goto(rm_dungeon_1)
-				instance_create_layer(256, 256, "Instances", obj_player)
-				obj_player.weapon = obj_hatchet
-				audio_play_sound(snd_newdawn, 0, true)
-			} else {
-				room_goto(rm_1)
-				instance_create_layer(256, 256, "Instances", obj_player)
-				audio_play_sound(snd_newdawn, 0, true)
-			}
+		case 0: // Start
+			room_goto(rm_instructions)
 			break;
 		
 		case 1: // Quit

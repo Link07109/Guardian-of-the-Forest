@@ -23,17 +23,18 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"color2","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"$FF0F0F96","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"color2","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"$FFFFFFFF","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_game_over_menu",
+  "name": "obj_win",
   "tags": [],
   "resourceType": "GMObject",
 }
