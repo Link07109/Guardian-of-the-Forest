@@ -13,7 +13,7 @@ Guardian of the Forest is a simple metroidvania game where you play as an advent
 ## Cheats
 * `Esc` - Quit Game
 * `R` - Restart Game
-* `0-8, O, Insert, Delete` - Go to a Specific Room
+* `0-8`, `O`, `Insert`, `Delete` - Go to a Specific Room
 * `I` - Become Invulnerable
 * `K` - Increase Key Amount by 1
 * `Page Up` - Get the Hatchet
